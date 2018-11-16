@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{48F7C481-901D-441F-B9A0-A844F39EC1C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ninject</RootNamespace>
+    <AssemblyName>Ninject</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.0.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bind.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineFoodBooking.Application.Abstraction\OnlineFoodBooking.Application.Abstraction.csproj">
+      <Project>{A3472695-0F41-48D0-A8D1-D8E57C24775D}</Project>
+      <Name>OnlineFoodBooking.Application.Abstraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnlineFoodBooking.Application_Layer\OnlineFoodBooking.Application_Layer.csproj">
+      <Project>{0E479E95-0E8C-49F0-A44E-320DAB7185C2}</Project>
+      <Name>OnlineFoodBooking.Application_Layer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnlineFoodBooking.DataAccess.Abstraction\OnlineFoodBooking.DataAccess.Abstraction.csproj">
+      <Project>{5ABD0361-308E-489E-98CA-8AA43EB25461}</Project>
+      <Name>OnlineFoodBooking.DataAccess.Abstraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnlineFoodBooking.DataAcess\OnlineFoodBooking.DataAcess.csproj">
+      <Project>{CE2AD891-C195-4F71-A735-59430B4B1C6C}</Project>
+      <Name>OnlineFoodBooking.DataAcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnlineFoodBooking.Domain_Layer.Abstraction\OnlineFoodBooking.Domain_Layer.Abstraction.csproj">
+      <Project>{E28F295F-F1D6-4AE8-8BA6-6A2AE1D6A972}</Project>
+      <Name>OnlineFoodBooking.Domain_Layer.Abstraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnlineFoodBooking.Domain_Layer\OnlineFoodBooking.Domain_Layer.csproj">
+      <Project>{3E1FAEAE-A28F-41C9-9DE5-6FF9276D5915}</Project>
+      <Name>OnlineFoodBooking.Domain_Layer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

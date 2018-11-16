@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnlineFoodBookingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="FoodMenu">
+    <Key>
+      <PropertyRef Name="FoodId" />
+    </Key>
+    <Property Name="FoodId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FoodItem" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Sync" Type="Boolean" />
+    <NavigationProperty Name="OrderDetails" Relationship="Self.FK__OrderDeta__FoodI__15502E78" FromRole="FoodMenu" ToRole="OrderDetails" />
+  </EntityType>
+  <EntityType Name="OrderDetail">
+    <Key>
+      <PropertyRef Name="OrderDetailsId" />
+    </Key>
+    <Property Name="OrderDetailsId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderId" Type="Int32" />
+    <Property Name="FoodId" Type="Int32" />
+    <Property Name="Qty" Type="Int32" />
+    <NavigationProperty Name="FoodMenu" Relationship="Self.FK__OrderDeta__FoodI__15502E78" FromRole="OrderDetails" ToRole="FoodMenu" />
+    <NavigationProperty Name="Order" Relationship="Self.FK__OrderDeta__Order__145C0A3F" FromRole="OrderDetails" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TotalPrice" Type="Int32" />
+    <Property Name="CustomerName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="OrderDetails" Relationship="Self.FK__OrderDeta__Order__145C0A3F" FromRole="Orders" ToRole="OrderDetails" />
+  </EntityType>
+  <Association Name="FK__OrderDeta__FoodI__15502E78">
+    <End Role="FoodMenu" Type="Self.FoodMenu" Multiplicity="0..1" />
+    <End Role="OrderDetails" Type="Self.OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FoodMenu">
+        <PropertyRef Name="FoodId" />
+      </Principal>
+      <Dependent Role="OrderDetails">
+        <PropertyRef Name="FoodId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderDeta__Order__145C0A3F">
+    <End Role="Orders" Type="Self.Order" Multiplicity="0..1" />
+    <End Role="OrderDetails" Type="Self.OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="OrderDetails">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OnlineFoodBookingEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="FoodMenus" EntityType="Self.FoodMenu" />
+    <EntitySet Name="OrderDetails" EntityType="Self.OrderDetail" />
+    <EntitySet Name="Orders" EntityType="Self.Order" />
+    <AssociationSet Name="FK__OrderDeta__FoodI__15502E78" Association="Self.FK__OrderDeta__FoodI__15502E78">
+      <End Role="FoodMenu" EntitySet="FoodMenus" />
+      <End Role="OrderDetails" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderDeta__Order__145C0A3F" Association="Self.FK__OrderDeta__Order__145C0A3F">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="OrderDetails" EntitySet="OrderDetails" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,12 @@
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\bin\Debug\OnlineFoodBooking.Domain_Layer.dll
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\bin\Debug\OnlineFoodBooking.Domain_Layer.pdb
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\bin\Debug\OnlineFoodBooking.DataAccess.Abstraction.dll
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\bin\Debug\OnlineFoodBooking.Domain_Layer.Abstraction.dll
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\bin\Debug\OnlineFoodBooking.DataAccess.Abstraction.pdb
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\bin\Debug\OnlineFoodBooking.Domain_Layer.Abstraction.pdb
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\obj\Debug\OnlineFoodBooking.Domain_Layer.csprojResolveAssemblyReference.cache
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\obj\Debug\OnlineFoodBooking.Domain_Layer.csproj.CoreCompileInputs.cache
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\obj\Debug\OnlineFoodBooking.Domain_Layer.dll
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\obj\Debug\OnlineFoodBooking.Domain_Layer.pdb
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\bin\Debug\OnlineFoodBookingModels.dll
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer\bin\Debug\OnlineFoodBookingModels.pdb

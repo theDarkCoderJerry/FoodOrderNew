@@ -1,0 +1,8 @@
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer.Abstraction\bin\Debug\OnlineFoodBooking.Domain_Layer.Abstraction.dll
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer.Abstraction\bin\Debug\OnlineFoodBooking.Domain_Layer.Abstraction.pdb
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer.Abstraction\obj\Debug\OnlineFoodBooking.Domain_Layer.Abstraction.csprojResolveAssemblyReference.cache
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer.Abstraction\obj\Debug\OnlineFoodBooking.Domain_Layer.Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer.Abstraction\obj\Debug\OnlineFoodBooking.Domain_Layer.Abstraction.dll
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer.Abstraction\obj\Debug\OnlineFoodBooking.Domain_Layer.Abstraction.pdb
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer.Abstraction\bin\Debug\OnlineFoodBookingModels.dll
+C:\Users\jerish.js\source\repos\OnlineFoodBooking\OnlineFoodBooking.Domain_Layer.Abstraction\bin\Debug\OnlineFoodBookingModels.pdb

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OnlineFoodBooking.DataAccess.Mongo.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="connectionstring" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mongodb://192.168.80.153:27017</Value>
+    </Setting>
+    <Setting Name="database" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OnlineFoodBooking</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

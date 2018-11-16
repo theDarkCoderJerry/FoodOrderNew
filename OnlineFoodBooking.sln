@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFoodBooking", "OnlineFoodBooking\OnlineFoodBooking.csproj", "{E27FCA11-CF07-4F9A-80C7-F7C762E8C10C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Presentation_Layer", "01_Presentation_Layer", "{73297ECF-4F7A-4127-9C56-0E1B028AA4AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Application_Layer", "02_Application_Layer", "{92B51014-2C24-4205-B8A0-87EFE3C8F40C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Domain_Layer", "03_Domain_Layer", "{C7E951A8-99BC-46C4-B20C-A10CADFC3F8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Data_Access_Layer", "04_Data_Access_Layer", "{CA8D1FA3-0C1F-4FEF-B9C0-700BF26711EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFoodBooking.DataAcess", "OnlineFoodBooking.DataAcess\OnlineFoodBooking.DataAcess.csproj", "{CE2AD891-C195-4F71-A735-59430B4B1C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFoodBooking.DataAccess.Abstraction", "OnlineFoodBooking.DataAccess.Abstraction\OnlineFoodBooking.DataAccess.Abstraction.csproj", "{5ABD0361-308E-489E-98CA-8AA43EB25461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFoodBooking.Domain_Layer", "OnlineFoodBooking.Domain_Layer\OnlineFoodBooking.Domain_Layer.csproj", "{3E1FAEAE-A28F-41C9-9DE5-6FF9276D5915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFoodBooking.Domain_Layer.Abstraction", "OnlineFoodBooking.Domain_Layer.Abstraction\OnlineFoodBooking.Domain_Layer.Abstraction.csproj", "{E28F295F-F1D6-4AE8-8BA6-6A2AE1D6A972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFoodBooking.Application_Layer", "OnlineFoodBooking.Application_Layer\OnlineFoodBooking.Application_Layer.csproj", "{0E479E95-0E8C-49F0-A44E-320DAB7185C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFoodBooking.Application.Abstraction", "OnlineFoodBooking.Application.Abstraction\OnlineFoodBooking.Application.Abstraction.csproj", "{A3472695-0F41-48D0-A8D1-D8E57C24775D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Infrastructure", "05_Infrastructure", "{D591F5E4-C8F5-4D0B-990F-6B8782061FBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjectConfigurationLibrary", "NinjectConfigurationLibrary\NinjectConfigurationLibrary.csproj", "{10E56D43-24E7-4C86-ADC1-2D260002CB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFoodBookingModels", "OnlineFoodBookingModels\OnlineFoodBookingModels.csproj", "{A5ADE54B-1C32-493F-815F-0B91FDF09A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFoodBooking.DataAccess.Mongo", "OnlineFoodBooking.DataAccess.Mongo\OnlineFoodBooking.DataAccess.Mongo.csproj", "{EE6141B1-0CBC-447B-94EC-1E63FCAFA03C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFoodBookingElasticSearch", "OnlineFoodBookingElasticSearch\OnlineFoodBookingElasticSearch.csproj", "{EB702342-AA72-4537-AD0C-8578E9B1B81D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E27FCA11-CF07-4F9A-80C7-F7C762E8C10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27FCA11-CF07-4F9A-80C7-F7C762E8C10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27FCA11-CF07-4F9A-80C7-F7C762E8C10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27FCA11-CF07-4F9A-80C7-F7C762E8C10C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2AD891-C195-4F71-A735-59430B4B1C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2AD891-C195-4F71-A735-59430B4B1C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2AD891-C195-4F71-A735-59430B4B1C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2AD891-C195-4F71-A735-59430B4B1C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABD0361-308E-489E-98CA-8AA43EB25461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABD0361-308E-489E-98CA-8AA43EB25461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABD0361-308E-489E-98CA-8AA43EB25461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABD0361-308E-489E-98CA-8AA43EB25461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E1FAEAE-A28F-41C9-9DE5-6FF9276D5915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1FAEAE-A28F-41C9-9DE5-6FF9276D5915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1FAEAE-A28F-41C9-9DE5-6FF9276D5915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1FAEAE-A28F-41C9-9DE5-6FF9276D5915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E28F295F-F1D6-4AE8-8BA6-6A2AE1D6A972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E28F295F-F1D6-4AE8-8BA6-6A2AE1D6A972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E28F295F-F1D6-4AE8-8BA6-6A2AE1D6A972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E28F295F-F1D6-4AE8-8BA6-6A2AE1D6A972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E479E95-0E8C-49F0-A44E-320DAB7185C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E479E95-0E8C-49F0-A44E-320DAB7185C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E479E95-0E8C-49F0-A44E-320DAB7185C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E479E95-0E8C-49F0-A44E-320DAB7185C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3472695-0F41-48D0-A8D1-D8E57C24775D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3472695-0F41-48D0-A8D1-D8E57C24775D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3472695-0F41-48D0-A8D1-D8E57C24775D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3472695-0F41-48D0-A8D1-D8E57C24775D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E56D43-24E7-4C86-ADC1-2D260002CB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E56D43-24E7-4C86-ADC1-2D260002CB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E56D43-24E7-4C86-ADC1-2D260002CB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E56D43-24E7-4C86-ADC1-2D260002CB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5ADE54B-1C32-493F-815F-0B91FDF09A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5ADE54B-1C32-493F-815F-0B91FDF09A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5ADE54B-1C32-493F-815F-0B91FDF09A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5ADE54B-1C32-493F-815F-0B91FDF09A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6141B1-0CBC-447B-94EC-1E63FCAFA03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6141B1-0CBC-447B-94EC-1E63FCAFA03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6141B1-0CBC-447B-94EC-1E63FCAFA03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6141B1-0CBC-447B-94EC-1E63FCAFA03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB702342-AA72-4537-AD0C-8578E9B1B81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB702342-AA72-4537-AD0C-8578E9B1B81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB702342-AA72-4537-AD0C-8578E9B1B81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB702342-AA72-4537-AD0C-8578E9B1B81D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E27FCA11-CF07-4F9A-80C7-F7C762E8C10C} = {73297ECF-4F7A-4127-9C56-0E1B028AA4AB}
+		{CE2AD891-C195-4F71-A735-59430B4B1C6C} = {CA8D1FA3-0C1F-4FEF-B9C0-700BF26711EE}
+		{5ABD0361-308E-489E-98CA-8AA43EB25461} = {CA8D1FA3-0C1F-4FEF-B9C0-700BF26711EE}
+		{3E1FAEAE-A28F-41C9-9DE5-6FF9276D5915} = {C7E951A8-99BC-46C4-B20C-A10CADFC3F8E}
+		{E28F295F-F1D6-4AE8-8BA6-6A2AE1D6A972} = {C7E951A8-99BC-46C4-B20C-A10CADFC3F8E}
+		{0E479E95-0E8C-49F0-A44E-320DAB7185C2} = {92B51014-2C24-4205-B8A0-87EFE3C8F40C}
+		{A3472695-0F41-48D0-A8D1-D8E57C24775D} = {92B51014-2C24-4205-B8A0-87EFE3C8F40C}
+		{10E56D43-24E7-4C86-ADC1-2D260002CB60} = {D591F5E4-C8F5-4D0B-990F-6B8782061FBD}
+		{A5ADE54B-1C32-493F-815F-0B91FDF09A5E} = {D591F5E4-C8F5-4D0B-990F-6B8782061FBD}
+		{EE6141B1-0CBC-447B-94EC-1E63FCAFA03C} = {CA8D1FA3-0C1F-4FEF-B9C0-700BF26711EE}
+		{EB702342-AA72-4537-AD0C-8578E9B1B81D} = {CA8D1FA3-0C1F-4FEF-B9C0-700BF26711EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3206F0FB-0D9F-4569-8B25-5FE9C4B2CA97}
+	EndGlobalSection
+EndGlobal
